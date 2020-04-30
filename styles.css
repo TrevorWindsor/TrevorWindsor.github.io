@@ -1,0 +1,17 @@
+
+/* STYLESHEET TXT FILE TO MAKE GROUP CHANGES */
+/* WE CAN ALL AGREE ON A COLOR FOR THE PAGE. LAVENDER IS JUST TEMPORARY COLOR */
+body{
+    background-color: lavender;
+}
+
+
+/* CURRENTLY THIS ONLY AFFECTS THE TWO LINES ON MY SECION. 
+WE CAN DECIDE AS A TEAM WHAT COLOR/STYLE WE WANT AS A HEADING <h1>,<h2>, etc. */
+h6 {
+    color: rebeccapurple;
+}
+p13 {
+    color: violet;
+}
+/*This is where Rina's work ends. :) */
