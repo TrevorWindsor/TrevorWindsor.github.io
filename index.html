@@ -70,8 +70,52 @@ Trevor added class tag 'intro' to h2 as well as adding id tag to p -->
 <!-- This is where Nina's work starts. :) -->
  
 <hr> 
+    <style>
+     /*CSS Practice: Where I made all of my classes!*/ 
+    /* Added ID! */
+    #NinaHeader {
+            background-color:#ff99cc;
+            color:#9966ff;
+            padding: 35px;
+            text-align: center; 
+    }
+    
+    /*Added Classes! */
+    .NinaClass {
+        background-color:#9966ff;
+        color: #ff99cc;
+        padding: 20px;
+        text-align: center;
+    }
+    .NinaWantsMandatedColor {
+        color: #ff99cc;
+    }
+    
+    /* Added link manipulation */ 
+    a:link{
+        color:#9966ff;
+    }
+    a:hover{ 
+        color:black;
+    }
+    a:active{
+        color:#ff99cc;
+    }
 
+    /* Added image manipulation - taken from w3schools*/
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
 
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }   
+    </style>
+    
     <!--Added headings! <h1> and <h2>-->
     <h1>Nina's first heading.</h1>
     <p>Woah! look at that. My first paragraph!</p>
