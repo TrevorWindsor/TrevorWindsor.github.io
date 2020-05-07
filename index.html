@@ -58,6 +58,52 @@ h1 {color:#cc0099}
  
 <hr> 
 
+<!--CSS Practice: Where I made all of my classes!-->
+<style> 
+    /* Added ID! */
+    #NinaHeader {
+            background-color:#ff99cc;
+            color:#9966ff;
+            padding: 35px;
+            text-align: center; 
+    }
+    
+    /*Added Classes! */
+    .NinaClass {
+        background-color:#9966ff;
+        color: #ff99cc;
+        padding: 20px;
+        text-align: center;
+    }
+    .NinaWantsMandatedColor {
+        color: #ff99cc;
+    }
+    
+    /* Added link manipulation */ 
+    a:link{
+        color:#9966ff;
+    }
+    a:hover{ 
+        color:black;
+    }
+    a:active{
+        color:#ff99cc;
+    }
+
+    /* Added image manipulation - taken from w3schools*/
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    </style>
     <!--Added headings! <h1> and <h2>-->
     <h1>Nina's first heading.</h1>
     <p>Woah! look at that. My first paragraph!</p>
@@ -78,10 +124,10 @@ h1 {color:#cc0099}
     <em>Tragic, no? I could have been loving pink my whole life.</em></p> 
 
     <!--Added <table> :: about ...rad..ness? idk. -->
-    <div class="center"> 
+    <div> 
         <strong>Table time! ~ <br></strong><br>
 
-        <table style="width:20%" class="center">
+        <table style="width:20%">
         <tr>
             <th>Woah!</th>
             <th>Rad!</th>
@@ -95,6 +141,7 @@ h1 {color:#cc0099}
         </table>
         <br><p><em>Table time over!</em> I enjoyed that!</p>
     </div>
+
 <div>
 
     <!--Added lists! <ol> and <ul> :: About Video Games.-->
@@ -127,43 +174,7 @@ h1 {color:#cc0099}
 
 </div>
 
-<!--Yo! This is where Nina's CSS practice starts.-->
-<style> 
-/* Added ID! */
-#NinaHeader {
-        background-color:#ff99cc;
-        color:#9966ff;
-        padding: 35px;
-        text-align: center; 
-}
-
-/*Added Classes! */
-.NinaClass {
-    background-color:#9966ff;
-    color: #ff99cc;
-    padding: 20px;
-    text-align: center;
-}
-.NinaWantsMandatedColor {
-    color: #ff99cc;
-}
-
-/* Added link manipulation */ 
-a:link{
-    color:#9966ff;
-}
-a:hover{ 
-    color:black;
-}
-a:active{
-    color:#ff99cc;
-}
-
-.center{
-    text-align: center;
-    border: 3px #ff99cc;
-}
-</style>
+<!--Yo! This is where Nina's main CSS practice starts.-->
 
 <!--Applying style made in #style.css :)-->
 <br><h7>Now let's get CSS practice in here, yes,yes?</h7>
@@ -175,6 +186,16 @@ a:active{
 <!--Applying my .classes :)-->
 <h2 class="NinaClass"> What have I been doing while in quarantine?</h2>
 <p class="NinaWantsMandatedColor"> UUUUUUhhhh.... eating, sleeping, playing video games, singing, ..... nothing new.</p>
+
+<br><p> But, the best way to describe what I've been like during quarantine is with pictures!</p>
+<!--Applying manipulation to images. :)-->
+<div class="row">
+    <div class="column">
+      <img src="productive.jpg" alt="Me when I wake up" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="nah.jpg" alt="Me 20 minutes later" style="width:100%">
+    </div>
 
 <!--Added a link :) -->
 <a href="https://twitter.com/lycheefuzz">Also, follow me on twitter. uwu</a>
