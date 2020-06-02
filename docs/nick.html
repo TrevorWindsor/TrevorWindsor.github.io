@@ -1,7 +1,105 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .container {
+          position: relative;
+          width: 100%;
+          max-width: 400px;
+        }
+        
+        .container img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .container .btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #333;
+          color: white;
+          font-size: 16px;
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          border-radius: 500px;
+          text-align: center;
+        }
+        
+        .container .btn:hover {
+          background-color: black;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 200px; 
+  border-style: none none solid none;
+}
+
+.left {
+  width: 340px;
+  text-align: center;
+  border-style: none solid solid solid;
+}
+
+.right {
+  width: 950px;
+  border-style: none solid solid none;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+        </style>
     <body style="background-color:powderblue;">
     
         <h2 style="font-size: 500%;"><a href="index.html"><img src="logo.png" alt="logo"></a></h2>
-        <h3>This is nick's page</h3>
+        <body>
+
+            <div class="row">
+              <div class="column left" style="background-color:#aaa; border-style: solid solid solid solid;">
+                <div class="container">
+                    <a href="nickvideo1.html"><img src="nickpho1.jpg" alt="nick" style="width: 320px;height: 180px;object-fit: cover;"></a>
+                  </div>
+              </div>
+              <div class="column right" style="background-color:#bbb; border-style: solid solid solid none;">
+                <h2>Pool Shenanigans</h2>
+                <p>Matias, Trevor, and David poolside.</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                  <div class="container">
+                    <a href="nickvideo2.html"><img src="nickpho2.jpg" alt="nick" style="width: 320px;height: 180px;object-fit: cover;"></a>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                  <h2>Market Times</h2>
+                  <p>Trevor and Sasquatch posing for the camera.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                  <div class="container">
+                    <a href="nickvideo3.html"><img src="nickpho3.jpg" alt="nick" style="width: 320px;height: 180px;object-fit: cover;"></a>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                  <h2>Street Filming</h2>
+                  <p>Trevor performing a 50 to back tailslide while alex films on camcorder.</p>
+                </div>
+              </div>
+            
+            </body>
+           
 </html>

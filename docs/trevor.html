@@ -1,7 +1,107 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .container {
+          position: relative;
+          width: 100%;
+          max-width: 400px;
+        }
+        
+        .container img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .container .btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #333;
+          color: white;
+          font-size: 16px;
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          border-radius: 500px;
+          text-align: center;
+        }
+        
+        .container .btn:hover {
+          background-color: black;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 200px; 
+  border-style: none none solid none;
+}
+
+.left {
+  width: 340px;
+  text-align: center;
+  border-style: none solid solid solid;
+}
+
+.right {
+  width: 950px;
+  border-style: none solid solid none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+        </style>
     <body style="background-color:powderblue;">
     
         <h2 style="font-size: 500%;"><a href="index.html"><img src="logo.png" alt="logo"></a></h2>
-        <h3>This is trevor's page</h3>
+        <body>
+
+            <div class="row">
+              <div class="column left" style="background-color:#aaa; border-style: solid solid solid solid;">
+                <div class="container">
+                    <a href="trevorvideo1.html"><img src="trevthumb1.jpg" alt="trevor" style="width: 320px;height: 180px;"></a>
+                    <button class="btn"><a href="trevorvideo1.html"><img src="play.png" alt="play" style="width: 35px;height: 35px;"></a></button>
+                  </div>
+              </div>
+              <div class="column right" style="background-color:#bbb; border-style: solid solid solid none;">
+                <h2>Handplant</h2>
+                <p>A handplant is a very fly maneuver dude.</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                  <div class="container">
+                    <a href="trevorvideo2.html"><img src="trevthumb2.jpg" alt="trevor" style="width: 320px;height: 180px;"></a>
+                      <button class="btn"><a href="trevorvideo2.html"><img src="play.png" alt="play" style="width: 35px;height: 35px;"></a></button>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                  <h2>Monroe Skatepark Rail Doubles</h2>
+                  <p>Back feeble from Trevor followed by a back boardslide from Alex.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                  <div class="container">
+                    <a href="trevorvideo3.html"><img src="trevthumb3.jpg" alt="trevor" style="width: 320px;height: 180px;"></a>
+                      <button class="btn"><a href="trevorvideo3.html"><img src="play.png" alt="play" style="width: 35px;height: 35px;"></a></button>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                  <h2>Back blunt at Duvall Skatepark</h2>
+                  <p>She's a steep one! </p>
+                </div>
+              </div>
+            
+            </body>
+           
 </html>

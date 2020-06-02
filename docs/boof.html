@@ -1,7 +1,107 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .container {
+          position: relative;
+          width: 100%;
+          max-width: 400px;
+        }
+        
+        .container img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .container .btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #333;
+          color: white;
+          font-size: 16px;
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          border-radius: 500px;
+          text-align: center;
+        }
+        
+        .container .btn:hover {
+          background-color: black;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 200px; 
+  border-style: none none solid none;
+}
+
+.left {
+  width: 340px;
+  text-align: center;
+  border-style: none solid solid solid;
+}
+
+.right {
+  width: 950px;
+  border-style: none solid solid none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+        </style>
     <body style="background-color:powderblue;">
     
         <h2 style="font-size: 500%;"><a href="index.html"><img src="logo.png" alt="logo"></a></h2>
-        <h3>This is boof's page</h3>
+        <body>
+
+            <div class="row">
+              <div class="column left" style="width: 340px; background-color:#aaa; border-style: solid solid solid solid;">
+                <div class="container">
+                    <a href="boofvideo1.html"><img src="boofthumb1.jpg" alt="boof" style="width: 320px;height: 180px;"></a>
+                    <button class="btn"><a href="boofvideo1.html"><img src="play.png" alt="play" style="width: 35px;height: 35px;"></a></button>
+                  </div>
+              </div>
+              <div class="column right" style="width: 950px; background-color:#bbb; border-style: solid solid solid none;">
+                <h2>Lake City Ledge</h2>
+                <p>A few ledge tricks of Alex at virgil flaim park, Seattle, Washington.</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                  <div class="container">
+                    <a href="boofvideo2.html"><img src="boofthumb2.jpg" alt="boof" style="width: 320px;height: 180px;"></a>
+                      <button class="btn"><a href="boofvideo2.html"><img src="play.png" alt="play" style="width: 35px;height: 35px;"></a></button>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                  <h2>Ultimate combo at Northgate</h2>
+                  <p>Back noseslide shuv to 50 by the best.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                  <div class="container">
+                    <a href="boofvideo3.html"><img src="boofthumb3.jpg" alt="boof" style="width: 320px;height: 180px;"></a>
+                      <button class="btn"><a href="boofvideo3.html"><img src="play.png" alt="play" style="width: 35px;height: 35px;"></a></button>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                  <h2>Lake City clips</h2>
+                  <p>A short compilation of some maneuvers.</p>
+                </div>
+              </div>
+            
+            </body>
+           
 </html>
