@@ -5,11 +5,13 @@
           position: relative;
           width: 100%;
           max-width: 400px;
+          -webkit-column-break-inside: avoid;
         }
         
         .container img {
           width: 100%;
           height: auto;
+          -webkit-column-break-inside: avoid;
         }
         
         .container .btn {
@@ -26,33 +28,39 @@
           cursor: pointer;
           border-radius: 500px;
           text-align: center;
+          -webkit-column-break-inside: avoid;
         }
         
         .container .btn:hover {
           background-color: black;
+          -webkit-column-break-inside: avoid;
         }
         * {
   box-sizing: border-box;
 }
 
-
+.row{
+  display:flex
+}
 .column {
-  float: left;
+  flex: 50%;
   padding: 10px;
   height: 200px; 
   border-style: none none solid none;
-  -webkit-column-break-inside: avoid;
+ 
 }
 
 .left {
   width: 340px;
   text-align: center;
   border-style: none solid solid solid;
+  -webkit-column-break-inside: avoid;
 }
 
 .right {
   width: 950px;
   border-style: none solid solid none;
+  -webkit-column-break-inside: avoid;
 }
 
 .row:after {
